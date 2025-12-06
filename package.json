@@ -3,20 +3,5 @@
   "version": "1.0.0",
   "private": true,
   "description": "Zaijix company website - telecom & telematics solutions provider",
-  "packageManager": "yarn@3.6.0",
-  "workspaces": [
-    "frontend",
-    "backend"
-  ],
-  "scripts": {
-    "dev:frontend": "cd frontend && yarn dev",
-    "dev:backend": "cd backend && yarn dev",
-    "dev": "concurrently \"yarn dev:frontend\" \"yarn dev:backend\"",
-    "build:frontend": "cd frontend && yarn build",
-    "build:backend": "cd backend && yarn build",
-    "build": "yarn build:frontend && yarn build:backend"
-  },
-  "devDependencies": {
-    "concurrently": "^9.2.1"
-  }
+  "packageManager": "yarn@3.6.0"
 }
