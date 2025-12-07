@@ -1,3 +1,5 @@
+import { SatelliteDish, BarChart3, ShieldCheck, PanelsTopLeft, Plug, Fuel } from 'lucide-react';
+
 const Services = () => {
   return (
     <div className="bg-neutral-light py-16">
@@ -14,6 +16,9 @@ const Services = () => {
         <div className="max-w-5xl mx-auto space-y-8">
           {/* Fleet Telematics Solutions */}
           <div className="bg-white p-8 rounded-lg shadow-sm">
+            <div className="inline-flex w-12 h-12 items-center justify-center rounded-lg bg-accent-teal/15 text-accent-teal mb-4">
+              <SatelliteDish />
+            </div>
             <h2 className="text-3xl font-heading font-semibold mb-4 text-secondary-blue">
               Fleet Telematics Solutions
             </h2>
@@ -26,6 +31,9 @@ const Services = () => {
 
           {/* Data and Analytics */}
           <div className="bg-white p-8 rounded-lg shadow-sm">
+            <div className="inline-flex w-12 h-12 items-center justify-center rounded-lg bg-accent-teal/15 text-accent-teal mb-4">
+              <BarChart3 />
+            </div>
             <h2 className="text-3xl font-heading font-semibold mb-4 text-secondary-blue">
               Data and Analytics
             </h2>
@@ -38,6 +46,9 @@ const Services = () => {
 
           {/* Fleet Safety & Compliance */}
           <div className="bg-white p-8 rounded-lg shadow-sm">
+            <div className="inline-flex w-12 h-12 items-center justify-center rounded-lg bg-accent-teal/15 text-accent-teal mb-4">
+              <ShieldCheck />
+            </div>
             <h2 className="text-3xl font-heading font-semibold mb-4 text-secondary-blue">
               Fleet Safety & Compliance
             </h2>
@@ -50,6 +61,9 @@ const Services = () => {
 
           {/* Operational Visibility & Optimization */}
           <div className="bg-white p-8 rounded-lg shadow-sm">
+            <div className="inline-flex w-12 h-12 items-center justify-center rounded-lg bg-accent-teal/15 text-accent-teal mb-4">
+              <PanelsTopLeft />
+            </div>
             <h2 className="text-3xl font-heading font-semibold mb-4 text-secondary-blue">
               Operational Visibility & Optimization
             </h2>
@@ -62,6 +76,9 @@ const Services = () => {
 
           {/* Software Integrations / APIs */}
           <div className="bg-white p-8 rounded-lg shadow-sm">
+            <div className="inline-flex w-12 h-12 items-center justify-center rounded-lg bg-accent-teal/15 text-accent-teal mb-4">
+              <Plug />
+            </div>
             <h2 className="text-3xl font-heading font-semibold mb-4 text-secondary-blue">
               Software Integrations / APIs
             </h2>
@@ -74,6 +91,9 @@ const Services = () => {
 
           {/* Fuel Cost Reduction Consulting */}
           <div className="bg-white p-8 rounded-lg shadow-sm">
+            <div className="inline-flex w-12 h-12 items-center justify-center rounded-lg bg-accent-teal/15 text-accent-teal mb-4">
+              <Fuel />
+            </div>
             <h2 className="text-3xl font-heading font-semibold mb-4 text-secondary-blue">
               Fuel Cost Reduction Consulting
             </h2>

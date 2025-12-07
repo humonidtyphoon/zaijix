@@ -1,3 +1,5 @@
+import { Flame, Truck, ShoppingBag } from 'lucide-react';
+
 const Industries = () => {
   return (
     <div className="bg-neutral-light py-16">
@@ -14,8 +16,8 @@ const Industries = () => {
           {/* Energy & Fuel Distribution */}
           <div className="bg-white p-8 rounded-lg shadow-sm">
             <div className="flex items-start">
-              <div className="flex-shrink-0 w-16 h-16 bg-primary-blue rounded-lg flex items-center justify-center text-white text-2xl font-bold mr-6">
-                E
+              <div className="flex-shrink-0 w-16 h-16 bg-accent-teal/15 text-accent-teal rounded-lg flex items-center justify-center mr-6">
+                <Flame className="w-8 h-8" aria-hidden="true" />
               </div>
               <div className="flex-1">
                 <h2 className="text-3xl font-heading font-semibold mb-4 text-secondary-blue">
@@ -39,8 +41,8 @@ const Industries = () => {
           {/* Logistics & Transportation */}
           <div className="bg-white p-8 rounded-lg shadow-sm">
             <div className="flex items-start">
-              <div className="flex-shrink-0 w-16 h-16 bg-primary-blue rounded-lg flex items-center justify-center text-white text-2xl font-bold mr-6">
-                L
+              <div className="flex-shrink-0 w-16 h-16 bg-accent-teal/15 text-accent-teal rounded-lg flex items-center justify-center mr-6">
+                <Truck className="w-8 h-8" aria-hidden="true" />
               </div>
               <div className="flex-1">
                 <h2 className="text-3xl font-heading font-semibold mb-4 text-secondary-blue">
@@ -63,8 +65,8 @@ const Industries = () => {
           {/* Retail & Delivery */}
           <div className="bg-white p-8 rounded-lg shadow-sm">
             <div className="flex items-start">
-              <div className="flex-shrink-0 w-16 h-16 bg-primary-blue rounded-lg flex items-center justify-center text-white text-2xl font-bold mr-6">
-                R
+              <div className="flex-shrink-0 w-16 h-16 bg-accent-teal/15 text-accent-teal rounded-lg flex items-center justify-center mr-6">
+                <ShoppingBag className="w-8 h-8" aria-hidden="true" />
               </div>
               <div className="flex-1">
                 <h2 className="text-3xl font-heading font-semibold mb-4 text-secondary-blue">

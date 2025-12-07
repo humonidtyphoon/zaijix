@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom';
+import { SatelliteDish, BarChart3, ShieldCheck } from 'lucide-react';
 
 const Home = () => {
   return (
@@ -62,16 +63,25 @@ const Home = () => {
             Key Services
           </h2>
           <div className="grid md:grid-cols-3 gap-8">
-            <div className="p-6 border border-gray-200 rounded-lg">
-              <h3 className="text-xl font-semibold mb-4 text-secondary-blue">Fleet Telematics Solutions</h3>
+            <div className="p-6 border border-gray-200 rounded-lg flex flex-col gap-3">
+              <div className="inline-flex w-12 h-12 items-center justify-center rounded-lg bg-accent-teal/15 text-accent-teal">
+                <SatelliteDish />
+              </div>
+              <h3 className="text-xl font-semibold text-secondary-blue">Fleet Telematics Solutions</h3>
               <p>Enterprise-grade data insights and operational intelligence for complete fleet visibility.</p>
             </div>
-            <div className="p-6 border border-gray-200 rounded-lg">
-              <h3 className="text-xl font-semibold mb-4 text-secondary-blue">Data & Analytics</h3>
+            <div className="p-6 border border-gray-200 rounded-lg flex flex-col gap-3">
+              <div className="inline-flex w-12 h-12 items-center justify-center rounded-lg bg-accent-teal/15 text-accent-teal">
+                <BarChart3 />
+              </div>
+              <h3 className="text-xl font-semibold text-secondary-blue">Data & Analytics</h3>
               <p>Advanced analytics to identify inefficiencies and optimize fleet performance.</p>
             </div>
-            <div className="p-6 border border-gray-200 rounded-lg">
-              <h3 className="text-xl font-semibold mb-4 text-secondary-blue">Fleet Safety & Compliance</h3>
+            <div className="p-6 border border-gray-200 rounded-lg flex flex-col gap-3">
+              <div className="inline-flex w-12 h-12 items-center justify-center rounded-lg bg-accent-teal/15 text-accent-teal">
+                <ShieldCheck />
+              </div>
+              <h3 className="text-xl font-semibold text-secondary-blue">Fleet Safety & Compliance</h3>
               <p>Comprehensive safety monitoring and compliance management solutions.</p>
             </div>
           </div>

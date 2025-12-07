@@ -3,5 +3,8 @@
   "version": "1.0.0",
   "private": true,
   "description": "Zaijix company website - telecom & telematics solutions provider",
-  "packageManager": "yarn@3.6.0"
+  "packageManager": "yarn@3.6.0",
+  "dependencies": {
+    "lucide-react": "^0.556.0"
+  }
 }
