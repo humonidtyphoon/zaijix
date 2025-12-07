@@ -6,7 +6,7 @@ const Home = () => {
       {/* Hero Section */}
       <section className="bg-primary-blue text-white py-20">
         <div className="container mx-auto px-4 text-center">
-          <h1 className="text-5xl font-heading font-bold mb-6">
+          <h1 className="text-4xl md:text-5xl font-heading font-bold mb-6 leading-tight max-w-4xl mx-auto">
             Transforming Fleet Operations Through Advanced Telematics
           </h1>
           <p className="text-xl mb-8 max-w-3xl mx-auto">

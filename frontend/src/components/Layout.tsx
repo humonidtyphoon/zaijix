@@ -14,7 +14,7 @@ const Layout = ({ children }: LayoutProps) => {
             <Link to="/" className="text-2xl font-heading font-bold">
               Zaijix
             </Link>
-            <ul className="flex space-x-6">
+            <ul className="flex flex-wrap items-center gap-4 text-sm md:flex-nowrap md:gap-6 md:text-base">
               <li><Link to="/" className="hover:text-accent-teal transition">Home</Link></li>
               <li><Link to="/about" className="hover:text-accent-teal transition">About</Link></li>
               <li><Link to="/services" className="hover:text-accent-teal transition">Services</Link></li>
