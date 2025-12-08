@@ -121,7 +121,7 @@ const Home = () => {
           <h2 className="text-4xl font-heading font-bold text-center mb-12 text-primary-blue">
             About Zaijix
           </h2>
-          <div className="mx-auto max-w-5xl grid gap-10 lg:grid-cols-[minmax(0,1.15fr)_minmax(0,0.85fr)] items-center">
+          <div className="mx-auto max-w-5xl grid gap-10 lg:grid-cols-2 items-center">
             <div className="order-2 text-lg leading-relaxed bg-white rounded-3xl shadow-sm p-8 md:p-10 lg:order-1">
               <p className="mb-6">
                 Zaijix is a telecom and telematics solutions provider focused on addressing the unique challenges
@@ -134,15 +134,10 @@ const Home = () => {
                 to lead this transformation with enterprise-grade platforms and a deeply local understanding of
                 operational realities.
               </p>
-              <p>
-                We are currently preparing a pilot program with Manaseer Group to demonstrate measurable
-                improvements in fleet fuel efficiency and operational visibility—setting the foundation for a
-                scalable national telematics footprint.
-              </p>
             </div>
 
             <div className="order-1 lg:order-2">
-              <div className="relative overflow-hidden rounded-3xl shadow-[0_22px_70px_rgba(0,0,0,0.25)] border border-primary-blue/15 bg-primary-blue/80">
+              <div className="relative h-64 md:h-72 lg:h-80 overflow-hidden rounded-3xl shadow-[0_22px_70px_rgba(0,0,0,0.25)] border border-primary-blue/15 bg-primary-blue/80">
                 <img
                   src={connectedCar}
                   alt="Connected car and telematics visualization"
