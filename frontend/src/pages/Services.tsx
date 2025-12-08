@@ -16,12 +16,14 @@ const Services = () => {
         <div className="max-w-5xl mx-auto space-y-8">
           {/* Fleet Telematics Solutions */}
           <div className="bg-white p-8 rounded-lg shadow-sm">
-            <div className="inline-flex w-12 h-12 items-center justify-center rounded-lg bg-accent-teal/15 text-accent-teal mb-4">
-              <SatelliteDish />
+            <div className="flex items-center gap-3 mb-4">
+              <div className="inline-flex w-12 h-12 items-center justify-center rounded-lg bg-accent-teal/15 text-accent-teal">
+                <SatelliteDish />
+              </div>
+              <h2 className="text-3xl font-heading font-semibold text-secondary-blue">
+                Fleet Telematics Solutions
+              </h2>
             </div>
-            <h2 className="text-3xl font-heading font-semibold mb-4 text-secondary-blue">
-              Fleet Telematics Solutions
-            </h2>
             <p className="text-lg leading-relaxed">
               Enterprise-grade telematics solutions compatible with leading global platforms. 
               Our systems provide real-time tracking, vehicle diagnostics, and comprehensive fleet 
@@ -31,12 +33,14 @@ const Services = () => {
 
           {/* Data and Analytics */}
           <div className="bg-white p-8 rounded-lg shadow-sm">
-            <div className="inline-flex w-12 h-12 items-center justify-center rounded-lg bg-accent-teal/15 text-accent-teal mb-4">
-              <BarChart3 />
+            <div className="flex items-center gap-3 mb-4">
+              <div className="inline-flex w-12 h-12 items-center justify-center rounded-lg bg-accent-teal/15 text-accent-teal">
+                <BarChart3 />
+              </div>
+              <h2 className="text-3xl font-heading font-semibold text-secondary-blue">
+                Data and Analytics
+              </h2>
             </div>
-            <h2 className="text-3xl font-heading font-semibold mb-4 text-secondary-blue">
-              Data and Analytics
-            </h2>
             <p className="text-lg leading-relaxed">
               Transform raw telematics data into actionable insights. Our analytics platform identifies 
               inefficiencies, tracks key performance indicators, and provides detailed reporting to support 
@@ -46,12 +50,14 @@ const Services = () => {
 
           {/* Fleet Safety & Compliance */}
           <div className="bg-white p-8 rounded-lg shadow-sm">
-            <div className="inline-flex w-12 h-12 items-center justify-center rounded-lg bg-accent-teal/15 text-accent-teal mb-4">
-              <ShieldCheck />
+            <div className="flex items-center gap-3 mb-4">
+              <div className="inline-flex w-12 h-12 items-center justify-center rounded-lg bg-accent-teal/15 text-accent-teal">
+                <ShieldCheck />
+              </div>
+              <h2 className="text-3xl font-heading font-semibold text-secondary-blue">
+                Fleet Safety & Compliance
+              </h2>
             </div>
-            <h2 className="text-3xl font-heading font-semibold mb-4 text-secondary-blue">
-              Fleet Safety & Compliance
-            </h2>
             <p className="text-lg leading-relaxed">
               Enhance driver safety through behavior monitoring, real-time alerts, and comprehensive 
               compliance management. Our solutions help reduce accidents, improve driver performance, 
@@ -61,12 +67,14 @@ const Services = () => {
 
           {/* Operational Visibility & Optimization */}
           <div className="bg-white p-8 rounded-lg shadow-sm">
-            <div className="inline-flex w-12 h-12 items-center justify-center rounded-lg bg-accent-teal/15 text-accent-teal mb-4">
-              <PanelsTopLeft />
+            <div className="flex items-center gap-3 mb-4">
+              <div className="inline-flex w-12 h-12 items-center justify-center rounded-lg bg-accent-teal/15 text-accent-teal">
+                <PanelsTopLeft />
+              </div>
+              <h2 className="text-3xl font-heading font-semibold text-secondary-blue">
+                Operational Visibility & Optimization
+              </h2>
             </div>
-            <h2 className="text-3xl font-heading font-semibold mb-4 text-secondary-blue">
-              Operational Visibility & Optimization
-            </h2>
             <p className="text-lg leading-relaxed">
               Gain complete visibility into your fleet operations with real-time location tracking, 
               route optimization, and utilization analytics. Identify opportunities to improve efficiency, 
@@ -76,12 +84,14 @@ const Services = () => {
 
           {/* Software Integrations / APIs */}
           <div className="bg-white p-8 rounded-lg shadow-sm">
-            <div className="inline-flex w-12 h-12 items-center justify-center rounded-lg bg-accent-teal/15 text-accent-teal mb-4">
-              <Plug />
+            <div className="flex items-center gap-3 mb-4">
+              <div className="inline-flex w-12 h-12 items-center justify-center rounded-lg bg-accent-teal/15 text-accent-teal">
+                <Plug />
+              </div>
+              <h2 className="text-3xl font-heading font-semibold text-secondary-blue">
+                Software Integrations / APIs
+              </h2>
             </div>
-            <h2 className="text-3xl font-heading font-semibold mb-4 text-secondary-blue">
-              Software Integrations / APIs
-            </h2>
             <p className="text-lg leading-relaxed">
               Seamlessly integrate telematics data with your existing business systems. Our API solutions 
               enable connectivity with ERP, logistics, and fleet management platforms to create a unified 
@@ -91,12 +101,14 @@ const Services = () => {
 
           {/* Fuel Cost Reduction Consulting */}
           <div className="bg-white p-8 rounded-lg shadow-sm">
-            <div className="inline-flex w-12 h-12 items-center justify-center rounded-lg bg-accent-teal/15 text-accent-teal mb-4">
-              <Fuel />
+            <div className="flex items-center gap-3 mb-4">
+              <div className="inline-flex w-12 h-12 items-center justify-center rounded-lg bg-accent-teal/15 text-accent-teal">
+                <Fuel />
+              </div>
+              <h2 className="text-3xl font-heading font-semibold text-secondary-blue">
+                Fuel Cost Reduction Consulting
+              </h2>
             </div>
-            <h2 className="text-3xl font-heading font-semibold mb-4 text-secondary-blue">
-              Fuel Cost Reduction Consulting
-            </h2>
             <p className="text-lg leading-relaxed">
               Expert consulting services focused on reducing fuel consumption and costs. We analyze your 
               fleet's fuel usage patterns, identify optimization opportunities, and implement strategies 

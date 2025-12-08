@@ -6,7 +6,7 @@
 
 @layer base {
   html {
-    @apply overflow-x-hidden;
+    @apply overflow-x-hidden scroll-smooth;
   }
 
   body {
@@ -16,4 +16,31 @@
   h1, h2, h3, h4, h5, h6 {
     @apply font-heading;
   }
+}
+
+/* Hero floating squares */
+@keyframes hero-float {
+  0%, 100% {
+    transform: translate3d(0, 0, 0) rotate(0deg);
+  }
+  50% {
+    transform: translate3d(6px, -10px, 0) rotate(2deg);
+  }
+}
+
+@keyframes hero-float-reverse {
+  0%, 100% {
+    transform: translate3d(0, 0, 0) rotate(0deg);
+  }
+  50% {
+    transform: translate3d(-4px, 8px, 0) rotate(-2deg);
+  }
+}
+
+.hero-orbit {
+  animation: hero-float 9s ease-in-out infinite;
+}
+
+.hero-orbit-secondary {
+  animation: hero-float-reverse 11s ease-in-out infinite;
 }

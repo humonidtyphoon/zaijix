@@ -1,4 +1,3 @@
-import { Link } from 'react-router-dom';
 import { useState } from 'react';
 
 interface LayoutProps {
@@ -6,33 +5,48 @@ interface LayoutProps {
 }
 
 const navItems = [
-  { to: '/', label: 'Home' },
-  { to: '/about', label: 'About' },
-  { to: '/services', label: 'Services' },
-  { to: '/industries', label: 'Industries' },
-  { to: '/faq', label: 'FAQ' },
-  { to: '/contact', label: 'Contact' },
+  { id: 'home', label: 'Home' },
+  { id: 'about', label: 'About' },
+  { id: 'services', label: 'Services' },
+  { id: 'industries', label: 'Industries' },
+  { id: 'faq', label: 'FAQ' },
+  { id: 'contact', label: 'Contact' },
 ];
 
 const Layout = ({ children }: LayoutProps) => {
   const [isOpen, setIsOpen] = useState(false);
 
+  const handleScrollTo = (id: string) => {
+    const element = document.getElementById(id);
+    if (element) {
+      element.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    }
+  };
+
   return (
     <div className="min-h-screen flex flex-col">
       {/* Header */}
-      <header className="bg-primary-blue text-white">
+      <header className="bg-primary-blue/95 text-white fixed top-0 left-0 right-0 z-50 w-full backdrop-blur-md border-b border-white/10">
         <nav className="container mx-auto px-4 py-4">
           <div className="flex items-center justify-between">
-            <Link to="/" className="text-2xl font-heading font-bold">
+            <button
+              type="button"
+              onClick={() => handleScrollTo('home')}
+              className="text-2xl font-heading font-bold focus:outline-none focus-visible:ring-2 focus-visible:ring-accent-teal rounded-sm"
+            >
               Zaijix
-            </Link>
+            </button>
             {/* Desktop nav */}
             <ul className="hidden md:flex items-center gap-6 text-base">
               {navItems.map((item) => (
-                <li key={item.to}>
-                  <Link to={item.to} className="hover:text-accent-teal transition">
+                <li key={item.id}>
+                  <button
+                    type="button"
+                    onClick={() => handleScrollTo(item.id)}
+                    className="hover:text-accent-teal transition focus:outline-none focus-visible:ring-2 focus-visible:ring-accent-teal rounded-sm"
+                  >
                     {item.label}
-                  </Link>
+                  </button>
                 </li>
               ))}
             </ul>
@@ -67,14 +81,17 @@ const Layout = ({ children }: LayoutProps) => {
           {isOpen && (
             <ul className="md:hidden mt-4 flex flex-col gap-3 bg-primary-blue/90 rounded-lg p-4">
               {navItems.map((item) => (
-                <li key={item.to}>
-                  <Link
-                    to={item.to}
-                    className="block w-full py-2 px-2 rounded hover:bg-white/10 transition"
-                    onClick={() => setIsOpen(false)}
+                <li key={item.id}>
+                  <button
+                    type="button"
+                    className="block w-full text-left py-2 px-2 rounded hover:bg-white/10 transition focus:outline-none focus-visible:ring-2 focus-visible:ring-accent-teal"
+                    onClick={() => {
+                      handleScrollTo(item.id);
+                      setIsOpen(false);
+                    }}
                   >
                     {item.label}
-                  </Link>
+                  </button>
                 </li>
               ))}
             </ul>

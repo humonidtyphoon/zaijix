@@ -1,0 +1,20 @@
+<svg width="96" height="96" viewBox="0 0 96 96" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="hexGradient" x1="16" y1="8" x2="80" y2="88" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0A2A43"/>
+      <stop offset="1" stop-color="#1F5F8B"/>
+    </linearGradient>
+  </defs>
+  <rect width="96" height="96" rx="24" fill="transparent"/>
+  <path
+    d="M48 8L74 24V56L48 72L22 56V24L48 8Z"
+    fill="url(#hexGradient)"
+    stroke="#0A2A43"
+    stroke-width="2.5"
+  />
+  <path
+    d="M36 58L58 34H38V30H60V34L38 58H60V62H36V58Z"
+    fill="white"
+  />
+</svg>
+

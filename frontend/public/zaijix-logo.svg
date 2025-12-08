@@ -1,0 +1,23 @@
+<svg width="256" height="256" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Hexagon outline (larger, closer to edges) -->
+  <polygon
+    points="100,12 182,59 182,141 100,188 18,141 18,59"
+    fill="none"
+    stroke="#0A2A43"
+    stroke-width="10"
+    stroke-linejoin="round"
+  />
+
+  <!-- Z letter (larger, centered) -->
+  <text
+    x="100"
+    y="132"
+    text-anchor="middle"
+    font-size="96"
+    font-weight="700"
+    font-family="Inter, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif"
+    fill="#4FB3BF"
+  >
+    Z
+  </text>
+</svg>
