@@ -14,7 +14,7 @@ const About = () => {
             </h2>
             <p className="text-lg leading-relaxed mb-4">
               Zaijix is a specialized telecom and telematics solutions provider dedicated to transforming 
-              fleet operations across Jordan and the MENA region. We combine technical expertise with 
+              fleet operations across the MENA region. We combine technical expertise with 
               deep market understanding to deliver solutions that address real operational challenges.
             </p>
             <p className="text-lg leading-relaxed">
@@ -33,7 +33,7 @@ const About = () => {
                 Our Vision
               </h2>
               <p className="text-lg leading-relaxed">
-                To establish Zaijix as the leading provider of fleet telematics solutions in Jordan and 
+                To establish Zaijix as the leading provider of fleet telematics solutions in 
                 the MENA region, enabling businesses to achieve unprecedented levels of operational 
                 efficiency and cost savings through advanced technology.
               </p>
@@ -51,19 +51,19 @@ const About = () => {
           </div>
         </section>
 
-        {/* Market Opportunity (Jordan) */}
+        {/* Market Opportunity */}
         <section className="max-w-4xl mx-auto">
           <div className="bg-white p-8 rounded-lg shadow-sm">
             <h2 className="text-3xl font-heading font-semibold mb-6 text-secondary-blue">
-              Market Opportunity in Jordan
+              Market Opportunity
             </h2>
             <div className="space-y-4 text-lg leading-relaxed">
               <p>
-                Jordan presents a significant opportunity for telematics adoption due to several key factors:
+                The region presents a significant opportunity for telematics adoption due to several key factors:
               </p>
               <ul className="list-disc list-inside space-y-3 ml-4">
                 <li>
-                  <strong>High Fuel Costs:</strong> Jordan's fuel prices are among the highest in the region, 
+                  <strong>High Fuel Costs:</strong> Fuel prices are among the highest in the region, 
                   making fuel efficiency a critical concern for fleet operators.
                 </li>
                 <li>
@@ -81,7 +81,7 @@ const About = () => {
               </ul>
               <p className="mt-6">
                 Zaijix is currently preparing a pilot program with <strong>Manaseer Group</strong>, one of 
-                Jordan's leading industrial conglomerates, to demonstrate measurable improvements in fleet 
+                the region's leading industrial conglomerates, to demonstrate measurable improvements in fleet 
                 fuel efficiency and operational visibility.
               </p>
             </div>

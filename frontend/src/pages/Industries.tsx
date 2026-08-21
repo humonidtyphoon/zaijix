@@ -9,7 +9,7 @@ const Industries = () => {
         </h1>
         <p className="text-xl text-center mb-16 max-w-3xl mx-auto">
           Zaijix specializes in delivering fleet telematics solutions tailored to the specific needs 
-          of three key industries in Jordan, aligned with our strategic market focus.
+          of three key industries, aligned with our strategic market focus.
         </p>
 
         <div className="max-w-5xl mx-auto space-y-12">
@@ -91,8 +91,8 @@ const Industries = () => {
         {/* Strategic Focus Note */}
         <div className="max-w-5xl mx-auto mt-12 p-6 bg-accent-teal bg-opacity-10 border-l-4 border-accent-teal rounded">
           <p className="text-lg">
-            <strong>Strategic Focus:</strong> These three industries represent our initial market focus 
-            in Jordan, aligned with our pilot program with Manaseer Group. As we expand, we will extend 
+            <strong>Strategic Focus:</strong> These three industries represent our initial market focus, 
+            aligned with our pilot program with Manaseer Group. As we expand, we will extend 
             our solutions to additional sectors that can benefit from advanced fleet telematics.
           </p>
         </div>

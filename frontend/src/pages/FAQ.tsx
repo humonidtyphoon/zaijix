@@ -10,15 +10,15 @@ const FAQ = () => {
     },
     {
       question: "How can telematics reduce fuel costs?",
-      answer: "Telematics reduces fuel costs through multiple mechanisms: monitoring and reducing idle time, optimizing routes to minimize unnecessary mileage, identifying inefficient driving behaviors (such as excessive acceleration or speeding), providing real-time alerts for maintenance issues that affect fuel efficiency, and enabling data-driven decisions about fleet composition and utilization. In Jordan's high fuel cost environment, these savings can be substantial."
+      answer: "Telematics reduces fuel costs through multiple mechanisms: monitoring and reducing idle time, optimizing routes to minimize unnecessary mileage, identifying inefficient driving behaviors (such as excessive acceleration or speeding), providing real-time alerts for maintenance issues that affect fuel efficiency, and enabling data-driven decisions about fleet composition and utilization. In a high fuel cost environment, these savings can be substantial."
     },
     {
       question: "What industries benefit most from telematics?",
-      answer: "While telematics benefits any organization operating vehicle fleets, certain industries see particularly strong returns: logistics and transportation companies benefit from route optimization and delivery tracking; energy and fuel distribution companies gain enhanced security and compliance monitoring; retail and delivery operations improve last-mile efficiency; construction and service industries optimize field operations. Zaijix currently focuses on energy, logistics, and retail sectors in Jordan."
+      answer: "While telematics benefits any organization operating vehicle fleets, certain industries see particularly strong returns: logistics and transportation companies benefit from route optimization and delivery tracking; energy and fuel distribution companies gain enhanced security and compliance monitoring; retail and delivery operations improve last-mile efficiency; construction and service industries optimize field operations. Zaijix currently focuses on energy, logistics, and retail sectors."
     },
     {
       question: "Is Zaijix operational yet?",
-      answer: "Zaijix is preparing for market entry with a strategic pilot program with Manaseer Group, one of Jordan's leading industrial conglomerates. This pilot will demonstrate the measurable value of our telematics solutions in real-world operations. We are building our technical infrastructure, establishing partnerships, and preparing to deliver enterprise-grade solutions to the Jordanian market."
+      answer: "Zaijix is preparing for market entry with a strategic pilot program with Manaseer Group, one of the region's leading industrial conglomerates. This pilot will demonstrate the measurable value of our telematics solutions in real-world operations. We are building our technical infrastructure, establishing partnerships, and preparing to deliver enterprise-grade solutions to the regional market."
     },
     {
       question: "What solutions does Zaijix provide?",

@@ -40,11 +40,11 @@ const Home = () => {
           <div className="max-w-4xl mx-auto text-lg leading-relaxed">
             <p className="mb-6">
               Zaijix is a telecom and telematics solutions provider focused on addressing the unique challenges 
-              faced by fleet operators in Jordan and the broader MENA region. We leverage cutting-edge telematics 
+              faced by fleet operators in the MENA region. We leverage cutting-edge telematics 
               technologies to deliver actionable insights and measurable improvements in fleet efficiency.
             </p>
             <p className="mb-6">
-              With Jordan's high fuel costs and under-digitalized fleet operations, the opportunity for 
+              With the region's high fuel costs and under-digitalized fleet operations, the opportunity for 
               optimization through real-time data and analytics has never been greater. Zaijix is positioned 
               to lead this transformation.
             </p>
