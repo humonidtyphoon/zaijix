@@ -112,7 +112,7 @@ const Services = () => {
             <p className="text-lg leading-relaxed">
               Expert consulting services focused on reducing fuel consumption and costs. We analyze your 
               fleet's fuel usage patterns, identify optimization opportunities, and implement strategies 
-              to achieve measurable fuel savings—critical in Jordan's high fuel cost environment.
+               to achieve measurable fuel savings—critical in today's high fuel cost environment.
             </p>
           </div>
         </div>
